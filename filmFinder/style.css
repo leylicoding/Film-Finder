@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+#searchBar {
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+    border-radius: solid;
+    background-color: burlywood;
+    font-style: italic;
+    color: black;
+    position: sticky;
+    width: 80%;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+#searchWrapper {
+    position: relative;
+    padding-bottom: 8px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+}
+button {
+    background-color: #196a73;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+}
+input {
+    font-size: 1em;
+}
+body {
+    background-color: rgb(167, 55, 55);
+    height: 100%;
+    width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+header {
+    text-align: center;
+    padding: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    background-color: burlywood;
+    font-family:  Silkscreen;
+    
+}
+nav {
+    border-top: rgb(241, 230, 226) solid;
+    background-color: rgb(231, 160, 28);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.9em;
+}
+img {
+    height: 350px;
+    width: 250px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: rgb(255, 3, 3);
+    border-radius: 7px;
+    padding: 10px;
+    overflow: hidden;
+}
+img:hover {
+    height: 320px;
+    width: 240px;
+}
+#container {
+    background-color: rgba(207, 183, 141, 0.453);
+}
+label {
+    color: #fff;
+    font-size: 10px;  
+    text-align: center;
+    font-family:  Silkscreen;
+}
+#list-movies {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: .45rem;
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    font-family:  Silkscreen;
+
+}
+li {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: .45rem;
+    text-align: center;
+}
+footer{
+    padding: 2em;
+    text-align: center;
+    background-color: burlywood;
+  }

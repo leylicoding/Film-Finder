@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./script.js"></script>
+    <script src="./movies.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Film Finder</title>
+</head>
+
+<body>
+    <header>
+        <h1>Film Finder</h1>
+    </header>
+
+    <div id="searchWrapper">
+        <input type="text"
+        name="searchBar"
+        id="searchBar"
+        placeholder="searching ..">
+        <button>Enter</button>
+    </div>
+
+    <nav class="navigation">        
+        <input type="radio" id="latest-movies" name="film-filter" value="latest-movies">
+        <label for="latest-movies">Latest movies, 2014 or newer</label>
+
+        <input type="radio" id="avenger" name="film-filter" value="avenger">
+        <label for="avenger">Avenger movies</label>
+
+        <input type="radio" id="x-men" name="film-filter" value="x-men">
+        <label for="x-men">X-Men movies</label>
+
+        <input type="radio" id="princess" name="film-filter" value="princess">
+        <label for="princess">Princess movies</label>
+
+        <input type="radio" id="batman" name="film-filter" value="batman">
+        <label for="batman">Batman movies</label>
+    </nav>
+
+    <div id="container">
+        <ul id="list-movies"></ul>
+    </div>
+
+    <footer>
+        ©️ Copyright | Leyli Salem ©️
+    </footer>
+
+</body>
+</html>
